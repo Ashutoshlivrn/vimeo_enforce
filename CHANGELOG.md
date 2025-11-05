@@ -1,3 +1,5 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+* Initial release of the vimeo_enforce package.
+* Provides a `VimeoPlayer` widget to enforce video watch time.
+* Includes callbacks for progress updates and backend integration.

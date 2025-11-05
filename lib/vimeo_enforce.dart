@@ -1,6 +1,3 @@
-import 'dart:async';
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
@@ -44,7 +41,7 @@ class VimeoPlayer extends StatefulWidget {
 
 
   const VimeoPlayer({
-    Key? key,
+    super.key,
     required this.vimeoId,
     required this.onProgress,
     required this.onEnforcedTimeMet,
@@ -52,7 +49,7 @@ class VimeoPlayer extends StatefulWidget {
     this.timeSpended = 0.0,
     this.enforceTime = 0.0,
     this.enforceType = "0",
-  }) : super(key: key);
+  });
 
   @override
   State<VimeoPlayer> createState() => _VimeoPlayerState();
