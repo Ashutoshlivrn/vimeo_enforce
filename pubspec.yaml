@@ -1,0 +1,26 @@
+name: vimeo_enforce
+description: "A Flutter widget that provides a Vimeo video player with enforced watch time, progress callbacks, and backend integration hooks."
+version: 1.0.0
+homepage: https://github.com/Ashutoshlivrn/vimeo_enforce
+repository: https://github.com/Ashutoshlivrn/vimeo_enforce
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # This package does not have any assets or fonts.

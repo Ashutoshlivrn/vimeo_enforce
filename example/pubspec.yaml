@@ -1,0 +1,17 @@
+name: example
+description: Demonstrates how to use the vimeo_enforce package.
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # When running locally, this will use the package from the parent directory.
+  # When published, this will fetch from pub.dev.
+  vimeo_enforce:
+    path: ../
+
+flutter:
+  uses-material-design: true
